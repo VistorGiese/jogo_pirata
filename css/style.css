@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+      font-size: 15px;
+      overflow-x:hidden
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+}
+
+.logoimg{
+    width: 50px;
+    height: 40px;
+}
+
+.imglogo{
+    width: 150px;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul,
+.menu li{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom:5px solid #F2CEA2;
+}
+
+.button {
+    display: block;
+    background-color: #A62934;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 40px;
+}
+
+.button--cards {
+    display: inline-block;
+    background-color: #F2CEA2;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 40px;
+    
+}
+
+
+.banner{
+    height:calc(100vh - 100px);
+    background-image:url(../fotos/banner.png);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders{
+    width: 1000vw;
+    height: 100%;
+    
+
+}
+
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+.banner .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #A62934;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 40px;
+    color: white;
+
+}
+.banner h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    background-color: #A62934;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 40px;
+    color: white;
+}
+
+
+.banner .slider-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #A62934;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.banner .pointer.active{
+    background-color: #A62934;
+}
+.cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards .section-title,
+.cards .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards .section-title{
+    font-size: 20px;
+    color: #A62934;
+}
+
+.cards .section-desc{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #D93636;
+
+}
+
+.cards .section-body{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.cards.light{
+    background-color: #F2CEA2;
+}
+.cards.light .section-body{
+    background-color: #A62934;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cards.dark{
+    background-color: #A62934;
+}
+.cards.dark .section-title{
+    color: #D9725B;
+}
+.cards.dark .section-desc{
+    color: #F2CEA2;
+}
+.cards.dark .section-body{
+    background-color: #F2CEA2;
+    border-radius: 5px;
+}
+
+.section-lore .lore--left a{
+    margin-top: 60px;
+    
+}
+
+footer{
+    background-color: #515932;
+    padding: 25px;
+    text-align: center;
+}
+
+
+
+
+/*
+css  de areas especificas
+*/
+
+.section-lore{
+    display: flex;
+}
+.lore--left p{
+    font: 20px;
+    line-height: 20px;
+}
+
+.lore--left{
+    flex: 1;
+}
+
+.lore--right{
+    width: 500px;
+    text-align: center;
+}
+.lore--right img{
+width: 350px;
+}
+
+.section-mundo{
+    display: flex;
+}
+
+
+.section-conheca{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #A62934;
+    padding: 25px;
+}
+
+.section-conheca:first-child{
+    border-right: 1px solid #A62934;
+}
+.section-conheca h4{
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #A62934;
+}
+
+.section-conheca p{
+    margin-top: 10px;
+    color: #D93636;
+}
+
+.section-conheca img{
+    height: 100px;
+    width: 150px;
+}
+
