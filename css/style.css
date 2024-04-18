@@ -209,7 +209,7 @@ header{
     color: #F2CEA2;
 }
 .cards.dark .section-body{
-    background-color: #F2CEA2;
+    
     border-radius: 5px;
 }
 
@@ -261,6 +261,7 @@ width: 350px;
     text-align: center;
     border-right: 1px solid #A62934;
     padding: 25px;
+    background-color: #F2CEA2;
 }
 
 .section-conheca:first-child{

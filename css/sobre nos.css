@@ -86,7 +86,8 @@ main{
 }
 
 .section_sobre{
-    height: 100%;
+    display: inline-block;
+    
 }
 .sobre_img{
     display: flex;
@@ -98,4 +99,5 @@ footer{
     background-color: #515932;
     padding: 25px;
     text-align: center;
+    margin-top: 50px;
 }
