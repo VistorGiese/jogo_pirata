@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+main{
+    overflow-x: hidden;
+}
 header{
     height: 100px;
     background-color: black;
@@ -73,20 +76,21 @@ main{
     height: 80vh;
     padding-left: 20px;
     padding-right: 30px;
+    
 }
 
 .sobre_texto{
     text-align: center;
     padding: 20px;
-    margin: 50px;
     line-height: 20px;
     background-color: #F2CEA2;
     color: black;
     border-radius: 20px;
+    display: block;
 }
 
 .section_sobre{
-    display: inline-block;
+    display: block;
     
 }
 .sobre_img{
@@ -97,7 +101,12 @@ main{
 
 footer{
     background-color: #515932;
-    padding: 25px;
     text-align: center;
-    margin-top: 50px;
+    padding: 30px;
+   
+}
+
+@media (with < 800){
+
+    
 }

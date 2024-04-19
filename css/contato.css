@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header{
     height: 100px;
     background-color: black;
@@ -100,13 +101,14 @@ body{
     background-color: #F2CEA2;
     color: black;
     border-radius: 20px;
-    height: 500px;
+    height: 300px;
+
 }
 
 .div_contato iframe{
     width: 100%;
-    
-
+    border: none; 
+    display: block;
 }
 
 #frame{
